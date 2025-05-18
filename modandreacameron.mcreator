@@ -1,5 +1,36 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Feed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modandreacameron/procedures/FeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jsp",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jsp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/modandreacameron/command/JspCommand.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
